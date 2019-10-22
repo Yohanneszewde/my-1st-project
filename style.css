@@ -91,7 +91,8 @@ main {
 
 hr {
   border-bottom: 25px solid #fff;
-  border-radius: 25px;
+  /* border-radius: 25px; */
+  border-bottom-width: 100px;
 }
 
 
