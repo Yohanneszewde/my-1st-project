@@ -206,7 +206,7 @@ footer {
 
         /* The @media screen is not yet clear for me and I need to learn* */
         
-        /* @media screen and (max-width: 900px) {
+        @media screen and (max-width: 900px) {
           .topnav a:not(:first-child) {display: none;}
           .topnav a.icon {
             float: right;
@@ -222,4 +222,4 @@ footer {
             top: 0;
           }
       
-        }  */
+        }  
