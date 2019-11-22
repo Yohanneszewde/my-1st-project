@@ -67,7 +67,7 @@ header {
     min-height: 300px;
     position: relative;
     width: 100%;
-
+    clear: both;
   }
 
 /*LOGO FIGURE*/
