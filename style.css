@@ -168,22 +168,29 @@ footer {
   }
   .column_footer_1 {
     float: left;
-    width: 75%;
+    width: 50%;
+    height: 100%;
+    /* border:20px solid whitesmoke; 
+    border-style: groove; 
+    border-radius: 2% */
     padding: 5px;
-    padding-left: 150px;
+ 
   }
   .column_footer_2 {
     float: left;
     width: 25%;
     padding: 5px;
-    padding-left: 10px;
   }
-
+  .column_footer_3 {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
   /* Clearfix (clear floats) */
   .row_footer::after {
     content: "";
     clear: both;
-    display: table;
+    display: flex;
   }
   /* copyright lower black strech 100%*/
 .copyright {
@@ -227,15 +234,6 @@ footer {
 	color: #fff;
 	border-radius: .5em;
 }
-
-.socialMedia:hover .image {
-  opacity: 0.5;
-}
-
-
-
-
-
 
 /* MEDIA QUERIES
 ************************************************************/
