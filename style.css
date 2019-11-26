@@ -67,7 +67,7 @@ header {
     min-height: 300px;
     position: relative;
     width: 100%;
-    clear: both;
+
   }
 
 /*LOGO FIGURE*/
@@ -77,29 +77,37 @@ header {
   height: auto;
 }
 
+
+
 .menu {
   float: right;
-  color: white;
-  display: flex;
-  text-decoration: none;
-  font-size: 2em;
   font-weight: 700;
-
-  font-family: BirchStd;
-  line-height: 40px;
   text-align: center;
 }
 .menu a {
-  color: white;
-  margin-right: 15px;
-  transition: color .4s ease;
+  display: inline-block;
+	padding: .05em .5em;
+	margin: .5em 0;
+	font-size: 2em;
+	line-height: 1;
+	letter-spacing: 0.1em;
+	word-spacing: 0.2em;
+	color: inherit;
+	border: none;
+  text-decoration: none;
+  font-family: BirchStd;
+	transition: margin-left 0.2s ease-in-out;
 }
 .menu a:hover,
+.menu a:focus,
 .menu .active {
   font-weight: 700;
   border-bottom: solid 5px white; 
- 
+	background: rgba(188, 202, 206, 0.15); 
 }
+
+
+
 .menu .active:after {
   content: "";
   display: block;
@@ -196,15 +204,20 @@ footer {
 .copyright {
     bottom: 0;
     height:60px;
-    background-color:burlywood ;
+    /* background-color:burlywood ; */
+    background: #E8EEF4;
     position: relative;
     width: 100%;
     color:brown; 
     font-size: 1.2em; 
     display: flex;
     justify-content: center;
-    padding-top: 1em;
-    border-top: dotted 2px #d2ed3b;
+    /* padding-top: 1em;
+    border-top: dotted 2px #d2ed3b; */
+    color: #7c8081;
+    padding: 2em 4% 2em;
+
+
 } 
 
 /*Floating Back-To-Top "Go HOME" Button*/
