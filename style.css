@@ -154,6 +154,74 @@ hr {
   /*main ends here*/ 
    /*Footer starts here*/
 
+/* ICONS
+----------------------------------------------*/
+/* .featured-icons .icon,
+.featured.icon {
+	font-size: 4em;
+	display: inline-block;
+	padding: .2em;
+} */
+
+
+.icon {
+  position: relative;
+}
+
+.icon.circle {
+	transition: all 0.2s ease-in-out;
+	border: 0;
+	border-radius: 100%;
+	display: inline-block;
+	font-size: 1.25em;
+	height: 2.25em;
+	align-items: center;
+	line-height: 2.25em;
+	text-align: center;
+	text-decoration: none;
+	top: 0;
+	width: 2.25em;
+	color: #fff;
+}
+.icon.circle:hover {
+	top: -0.2em;
+}
+
+.icon > .label {
+	display: none;
+}
+
+.icon.circle.fa-twitter {
+	background: #70aecd;
+}
+.icon.circle.fa-facebook {
+	background: #7490c3;
+}
+.icon.circle.fa-google-plus {
+	background: #db6b67;
+}
+.icon.circle.fa-github {
+	background: #dcad8b;
+}
+.icon.circle.fa-dribbble {
+	background: #da83ae;
+}   
+
+.icons {
+  justify-content: center;
+	flex-direction: row;
+	margin-bottom: 2em;
+}
+
+.icons li {
+	padding: 0 .4em;
+}
+
+/*DISPLAY FLEX*/
+.DF {
+flex-direction: row;
+}
+  
 footer {
   background-image: url("assets/images/DesLegumes/astro-astronomy-background_1.jpg");
   font-size: .7em;
@@ -188,7 +256,10 @@ footer {
     float: left;
     width: 25%;
     padding: 5px;
+    text-align: left;
   }
+
+
   .column_footer_3 {
     float: left;
     width: 25%;
